@@ -1,0 +1,48 @@
+:root {
+  font-family: "Roboto", sans-serif;
+
+  /* light theme tokens */
+  --background-color-light: rgb(255, 255, 255);
+
+  /* dark theme tokens */
+  --background-color-dark: rgb(0, 0, 39);
+
+  --variation-a-line: #3838e7;
+  --variation-b-line: #ff8346;
+  --variation-c-line: #ca82c4ff;
+
+  --original-line-light: #5e5d67;
+  --original-line-dark: #c7c5d0;
+
+  --original-line: var(--original-line-light);
+}
+
+.arrWrapper {
+  margin: 15px 10px 0;
+}
+
+.filtersBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.sectionOne {
+  display: flex;
+  gap: 8px;
+}
+
+.sectionTwo {
+  display: flex;
+  gap: 8px;
+}
+
+[data-theme="light"] {
+  background-color: var(--background-color-light);
+  --original-line: var(--original-line-light);
+}
+
+[data-theme="dark"] {
+  background-color: var(--background-color-dark);
+  --original-line: var(--original-line-dark);
+}

@@ -1,0 +1,32 @@
+.ctWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+  gap: 10px;
+  padding: 12px 16px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: -3px 13px 31px 13px rgba(34, 60, 80, 0.2);
+
+  p {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #52515b;
+  }
+}
+
+.labelWithIcon {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #e1dfe7;
+}
+
+.contentCT {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .boldText {
+    font-weight: 600;
+  }
+}

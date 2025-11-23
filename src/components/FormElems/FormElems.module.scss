@@ -1,0 +1,31 @@
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 7px 8px;
+  background-color: #fff;
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  padding: 7px 8px;
+  background-color: #fff;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #e6e6e6;
+  }
+
+  &:active {
+    background-color: #d1d1d1;
+  }
+}
