@@ -33,7 +33,7 @@ const ChartContainer = () => {
     let mounted = true;
     const fetchData = async () => {
       try {
-        const res = await fetch("data.json");
+        const res = await fetch("/data.json");
         const json = await res.json();
         if (mounted) setDataDTO(json);
       } catch (err) {
