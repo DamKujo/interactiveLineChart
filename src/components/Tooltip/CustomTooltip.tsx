@@ -1,5 +1,6 @@
 import type { TooltipContentProps } from "recharts/types/component/Tooltip";
 import style from "./CustomTooltip.module.scss";
+import { Trophy } from "lucide-react";
 
 const CustomTooltip = ({
   payload,
@@ -31,10 +32,10 @@ const CustomTooltip = ({
                 {item.name}
 
                 {payload.length > 1 && index === 0 ? (
-                  <img
-                    style={{ marginLeft: "10px" }}
-                    src="./../public/winner.svg"
-                    alt="winner-icon"
+                  <Trophy
+                    width={17}
+                    height={17}
+                    style={{ marginLeft: "10px", padding: 0 }}
                   />
                 ) : (
                   ""
