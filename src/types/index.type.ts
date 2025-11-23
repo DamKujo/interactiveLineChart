@@ -1,5 +1,5 @@
 import type { Ref } from "react";
-import type { Themes } from "./ThemeLayout";
+import type { Themes } from "./../layout/ThemeLayout";
 import type { CartesianChartProps } from "recharts/types/util/types";
 
 export interface IDataDTO {
