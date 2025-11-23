@@ -1,4 +1,4 @@
-import type { IDateStats, IVariations } from "./index.type";
+import type { IDateStats, IVariations } from "./../types/index.type";
 
 export function calculateAndModifyObj(
   variationsArr: IVariations[],
